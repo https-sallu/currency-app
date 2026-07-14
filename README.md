@@ -3,7 +3,7 @@ Markdown
 
 A responsive, real-time currency converter web application built with React and Vite. This project combines modern front-end development practices with real-time financial data, featuring a custom-built API hook, custom UI animations, and a polished interface styled with Tailwind CSS.
 
-**🔗 [View Live Demo Here](YOUR_VERCEL_LINK_HERE)** *(Update this once Vercel gives you your URL!)*
+**🔗 [View Live Demo Here](https://currency-app-indol.vercel.app/)**
 
 ## 🚀 Features
 * **Real-Time Exchange Rates:** Fetches live, up-to-date currency data using the `@fawazahmed0/currency-api` via an NPM-hosted CDN.
