@@ -7,7 +7,7 @@ function App() {
 
     const [amount, setAmount] = useState(0)
     const [from, setFrom] = useState("usd")
-    const [to, setTo] = useState("inr")
+    const [to, setTo] = useState("pkr")
     const [convertedAmount, setConvertedAmount] = useState(0)
 
     const currencyInfo = useCurrencyInfo(from)
@@ -70,7 +70,7 @@ function App() {
                                 amountDisable
                             />
                         </div>
-                        <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
+                        <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg transition-all duration-300 ease-in-out hover:bg-blue-700 hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/50 active:translate-y-0 active:shadow-sm">
                             Convert {from.toUpperCase()} to {to.toUpperCase()}
                         </button>
                     </form>
